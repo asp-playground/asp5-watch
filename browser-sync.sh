@@ -1,0 +1,1 @@
+browser-sync start server --files "bin/**/*.dll,Views/**/*.cshtml"
