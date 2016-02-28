@@ -6,6 +6,7 @@ public class HomeController: Controller {
         return View();
     }
     public ActionResult Index() {
+        ViewBag.Message = "Hello, Index";
         return View();
     }
 }

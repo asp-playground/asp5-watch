@@ -2,4 +2,10 @@
     Layout = @"~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Index</h1>
+@using System.Linq;
+
+<h1>@ViewBag.Message</h1>
+
+@foreach(var i in Enumerable.Range(0, 10)) {
+    <h3>@ViewBag.Message</h3>
+}
